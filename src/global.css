@@ -1,0 +1,26 @@
+:root{
+    --primary-black: #181818;
+    --second-black: #202020;
+    --gray: #383838;
+    --blue: #3EA6FF;
+    --font: 'Roboto', sans-serif;
+}
+
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+}
+
+body, ul, li, a, button, *{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--font);
+    outline: none;
+    border: none;
+}
+
+body{
+    background-color: var(--primary-black);
+}
