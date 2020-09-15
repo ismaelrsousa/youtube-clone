@@ -19,6 +19,7 @@ body, ul, li, a, button, *{
     font-family: var(--font);
     outline: none;
     border: none;
+    box-sizing: border-box;
 }
 
 body{
