@@ -16,6 +16,8 @@
 .top-bar .left{
     display: flex;
     align-items: center;
+    max-width: 250px;
+    width: 100%;
 }
 
 .top-bar .left .menu .icon{

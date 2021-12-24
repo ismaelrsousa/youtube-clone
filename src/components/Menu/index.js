@@ -25,69 +25,21 @@ function Menu(){
             <div className="content">
 
                 <div className="item active">
-                    <a href="#" className="link"></a>
-                    <div className="icon-container">
-                        <img src={home} alt="" className="icon"/>
-                    </div>
-                    Inicio
+                    <a href="#" className="link">
+                        <div className="icon-container">
+                            <img src={home} alt="" className="icon"/>
+                        </div>
+                        Inicio
+                    </a>
                 </div>
 
                 <div className="item">
-                    <a href="#" className="link"></a>
-                    <div className="icon-container">
-                        <img src={home} alt="" className="icon"/>
-                    </div>
-                    Em alta
-                </div>
-
-                <div className="item">
-                    <a href="#" className="link"></a>
-                    <div className="icon-container">
-                        <img src={home} alt="" className="icon"/>
-                    </div>
-                    Inscrições
-                </div>
-
-                <hr/>
-
-                <div className="item">
-                    <a href="#" className="link"></a>
-                    <div className="icon-container">
-                        <img src={home} alt="" className="icon"/>
-                    </div>
-                    Biblioteca
-                </div>
-
-                <div className="item">
-                    <a href="#" className="link"></a>
-                    <div className="icon-container">
-                        <img src={home} alt="" className="icon"/>
-                    </div>
-                    Histórico
-                </div>
-
-                <div className="item">
-                    <a href="#" className="link"></a>
-                    <div className="icon-container">
-                        <img src={home} alt="" className="icon"/>
-                    </div>
-                    Seus vídeos
-                </div>
-
-                <div className="item">
-                    <a href="#" className="link"></a>
-                    <div className="icon-container">
-                        <img src={home} alt="" className="icon"/>
-                    </div>
-                    Assistir mais tarde
-                </div>
-
-                <div className="item">
-                    <a href="#" className="link"></a>
-                    <div className="icon-container">
-                        <img src={home} alt="" className="icon"/>
-                    </div>
-                    Vídeos marcados co...
+                    <a href="#" className="link">
+                        <div className="icon-container">
+                            <img src={home} alt="" className="icon"/>
+                        </div>
+                        Histórico
+                    </a>
                 </div>
 
                 <hr/>
@@ -95,11 +47,12 @@ function Menu(){
                 <div className="title">Inscrições</div>
 
                 <div className="item has-notification">
-                    <a href="#" className="link"></a>
-                    <div className="icon-container circle">
-                        <img src={pic} alt="" className="pic"/>
-                    </div>
-                    Gabriel Guedes
+                    <a href="#" className="link">
+                        <div className="icon-container circle">
+                            <img src={pic} alt="" className="pic"/>
+                        </div>
+                        Gustavo Cunha
+                    </a>
                 </div>
 
             </div>
