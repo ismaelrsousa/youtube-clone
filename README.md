@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Youtube Clone
+
+This project is a clone of the interface of Youtube.
+Published in: https://ismaelrsousa.github.io/youtube-clone/
 
 ## Available Scripts
 
